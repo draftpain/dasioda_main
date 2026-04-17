@@ -143,7 +143,7 @@ const Hero = () => {
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <img 
-          src="/input_file_0.webp"
+          src="./input_file_0.webp"
           alt="Dasioda Stay Hero"
           className="w-full h-full object-cover brightness-75 scale-105 animate-slow-zoom"
           referrerPolicy="no-referrer"
@@ -211,7 +211,7 @@ const Intro = () => {
             className="relative aspect-[4/5] overflow-hidden rounded-sm shadow-2xl"
           >
             <img 
-              src="/input_file_7.webp"
+              src="./input_file_7.webp"
               alt="Autumn at Dasioda" 
               className="w-full h-full object-cover"
               referrerPolicy="no-referrer"
@@ -260,43 +260,43 @@ const Rooms = () => {
     {
       title: "The Bedroom 1",
       sub: "Cozy Rest / 2 Persons",
-      image: "/input_file_3.webp",
+      image: "./input_file_3.webp",
       desc: "포근한 침구와 은은한 조명이 어우러진 침실입니다. 창밖의 풍경을 감상하며 깊은 숙면을 취해보세요."
     },
     {
       title: "The Bedroom 2",
       sub: "COMFORTABLE GREEN / KIDS & FAMILY",
-      image: "/input_file_31.webp",
+      image: "./input_file_31.webp",
       desc: "키즈프랜들리 숙소로서 장난감 가득한 놀이방과 미니 놀이터가 준비되어 있는 온돌 침실입니다. 아이들이 바닥에서 안전하고 자유롭게 뒹굴며 즐거운 시간을 보내기 좋습니다."
     },
     {
       title: "The Bedroom 3",
       sub: "COZY BEDROOM / PERFECT RELAX",
-      image: "/input_file_32.webp",
+      image: "./input_file_32.webp",
       desc: "바스락거리는 체크무늬 침구와 따뜻한 조명이 반겨주는 세 번째 침실입니다. 창밖에서 스며드는 기분 좋은 햇살을 맞으며 조용하고 온전한 나만의 휴식을 누려보세요"
     },
     {
       title: "The Kids Room",
       sub: "Play & Joy / For Children",
-      image: "/input_file_1.webp",
+      image: "./input_file_1.webp",
       desc: "아이들을 위한 다양한 장난감과 안전한 놀이 공간이 마련되어 있습니다. 온 가족이 행복한 스테이입니다."
     },
     {
       title: "The Living Room",
       sub: "Emotional Space / Family",
-      image: "/input_file_2.webp",
+      image: "./input_file_2.webp",
       desc: "같이 둘러앉기 좋은 넓은 테이블이 자리한 2층 거실 공간입니다. 일상의 피로를 잠시 내려놓고, 편안한 분위기 속에서 웃음꽃을 피우기에 완벽한 장소입니다."
     },
     {
       title: "The Kitchen",
       sub: "SUNLIT KITCHEN / TOGETHER",
-      image: "/input_file_33.webp",
+      image: "./input_file_33.webp",
       desc: "큰 창 너머로 아름다운 계절의 풍경이 그림처럼 걸리는 화사한 주방입니다. 따스한 햇살이 머무는 이 공간에서, 사랑하는 사람들을 위한 기분 좋은 만찬을 준비해 보세요."
     },
     {
       title: "Out Door BBQ",
       sub: "PRIVATE GRILL / PARTY",
-      image: "/input_file_23.webp",
+      image: "./input_file_23.webp",
       desc: "캠핑 감성을 느낄 수 있는 아늑한 야외 바베큐장입니다. 가족, 친구들과 함께 그릴 위에서 고기를 구우며 하하호호 웃음 가득한 시간을 보낼 수 있습니다."
     }
   ];
@@ -452,7 +452,7 @@ const IndoorInfo = () => {
               className="relative aspect-[16/9] overflow-hidden rounded-sm shadow-lg"
             >
               <img 
-                src="/input_file_21.jpg"
+                src="./input_file_21.jpg"
                 alt="Indoor atmosphere" 
                 className="w-full h-full object-cover"
                 referrerPolicy="no-referrer"
@@ -541,7 +541,7 @@ const Location = () => {
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
           <div className="lg:col-span-2 relative h-[400px] md:h-[500px] bg-stay-border overflow-hidden rounded-sm shadow-inner">
             <img 
-              src="/input_file_0.webp"
+              src="./input_file_0.webp"
               alt="Winter at Dasioda" 
               className="w-full h-full object-cover opacity-80"
               referrerPolicy="no-referrer"
@@ -622,7 +622,7 @@ const Booking = () => {
     <section id="booking" className="py-24 md:py-40 px-6 md:px-12 bg-stay-ink text-white overflow-hidden relative">
       <div className="absolute top-0 right-0 w-1/2 h-full opacity-30 pointer-events-none">
         <img 
-          src="/input_file_0.webp"
+          src="./input_file_0.webp"
           alt="Booking BG" 
           className="w-full h-full object-cover"
           referrerPolicy="no-referrer"
@@ -696,13 +696,13 @@ const Footer = () => {
 
 const Gallery = () => {
   const rollingImages = [
-    "/input_file_4.webp",
-    "/input_file_5.webp",
-    "/input_file_6.webp",
-    "/input_file_8.webp",
-    "/input_file_9.webp",
-    "/input_file_10.webp",
-    "/input_file_11.webp"
+    "./input_file_4.webp",
+    "./input_file_5.webp",
+    "./input_file_6.webp",
+    "./input_file_8.webp",
+    "./input_file_9.webp",
+    "./input_file_10.webp",
+    "./input_file_11.webp"
   ];
 
   return (
