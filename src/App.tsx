@@ -705,7 +705,7 @@ const Gallery = () => {
     "/input_file_11.webp",
     "/input_file_24.webp",
     "/input_file_25.webp",
-    "/input_file_26.webp"
+    "/input_file_26.webp",
   ];
 
   return (
