@@ -452,7 +452,7 @@ const IndoorInfo = () => {
               className="relative aspect-[16/9] overflow-hidden rounded-sm shadow-lg"
             >
               <img 
-                src="/input_file_21.jpg"
+                src="/input_file_21.webp"
                 alt="Indoor atmosphere" 
                 referrerPolicy="no-referrer"
                 className="w-full h-full object-cover"
