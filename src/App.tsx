@@ -702,7 +702,10 @@ const Gallery = () => {
     "/input_file_8.webp",
     "/input_file_9.webp",
     "/input_file_10.webp",
-    "/input_file_11.webp"
+    "/input_file_11.webp",
+    "/input_file_24.webp",
+    "/input_file_25.webp",
+    "/input_file_26.webp"
   ];
 
   return (
