@@ -433,7 +433,7 @@ const IndoorInfo = () => {
                 <div className="p-6 border border-stay-border rounded-sm">
                   <h4 className="text-stay-ink font-bold text-xs uppercase tracking-widest mb-3">Barbecue</h4>
                   <p className="text-stay-muted text-xs font-light leading-relaxed">
-                    2층 테라스에서 계곡 소리를 들으며 프라이빗하게 즐기실 수 있습니다.
+                    2층 테라스에서 치악산 성남계곡 소리를 들으며 프라이빗하게 즐기실 수 있습니다.
                   </p>
                 </div>
                 <div className="p-6 border border-stay-border rounded-sm">
@@ -546,13 +546,35 @@ const Location = () => {
               className="w-full h-full object-cover opacity-80"
               referrerPolicy="no-referrer"
             />
-            <div className="absolute inset-0 flex items-center justify-center">
-              <div className="bg-white/90 backdrop-blur-sm p-6 rounded-sm shadow-xl flex items-center space-x-4">
-                <MapPin className="text-stay-accent w-6 h-6" />
+            {/* Address & Navigation Controls */}
+            <div className="absolute top-6 left-6 space-y-3 z-10">
+              <div className="bg-white/90 backdrop-blur-sm py-2.5 px-4 md:py-3.5 md:px-5 rounded-sm shadow-xl flex items-center space-x-4">
+                <MapPin className="text-stay-accent w-5 h-5 md:w-6 md:h-6" />
                 <div>
-                  <p className="text-sm font-medium">강원도 원주시 신림면 성남로 450</p>
-                  <p className="text-[10px] text-stay-muted tracking-widest uppercase mt-1">Dasioda Stay, Wonju</p>
+                  <p className="text-xs md:text-sm font-medium">강원도 원주시 신림면 성남로 450</p>
+                  <p className="text-[9px] md:text-[10px] text-stay-muted tracking-widest uppercase mt-1">Dasioda Stay, Wonju</p>
                 </div>
+              </div>
+              
+              <div className="flex space-x-2">
+                <a 
+                  href="https://map.kakao.com/link/search/%EB%8B%A4%EC%8B%9C%EC%98%A4%EB%8B%A4%20%EC%8A%A4%ED%85%8C%EC%9D%B4" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="bg-[#FEE500] text-[#191919] px-3 py-2 rounded-sm text-[10px] font-bold shadow-lg hover:brightness-95 transition-all flex items-center space-x-1.5"
+                >
+                  <span>카카오내비</span>
+                  <ChevronRight className="w-3 h-3" />
+                </a>
+                <a 
+                  href="https://map.naver.com/v5/search/%EB%8B%A4%EC%8B%9C%EC%98%A4%EB%8B%A4%20%EC%8A%A4%ED%85%8C%EC%9D%B4" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="bg-[#03C75A] text-white px-3 py-2 rounded-sm text-[10px] font-bold shadow-lg hover:brightness-95 transition-all flex items-center space-x-1.5"
+                >
+                  <span>네이버 지도</span>
+                  <ChevronRight className="w-3 h-3" />
+                </a>
               </div>
             </div>
           </div>
